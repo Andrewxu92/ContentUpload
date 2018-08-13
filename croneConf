@@ -1,0 +1,5 @@
+PATH = /sbin:/bin:/usr/bin:/usr/sbin
+37 * * * * /usr/bin/python3.4 /home/ec2-user/ContentUpdoad/AWSHCA/AutoUpload.py >> /home/ec2-user/ContentUpdoad/AWSHCA/log.log
+5 9 * * 3 /usr/bin/python3.4 /home/ec2-user/ContentUpdoad/AWSHCA/OCNUpload.py >> /home/ec2-user/ContentUpdoad/AWSHCA/log.log
+0 8 */14 * * /usr/bin/python3.4 /home/ec2-user/ContentUpdoad/AWSHCA/PCNUpload.py >> /home/ec2-user/ContentUpdoad/AWSHCA/log.log
+

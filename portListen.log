@@ -1,0 +1,63 @@
+server is starting
+server is starting
+server is starting
+server is starting
+server is starting
+server is listening port 9000
+server is starting
+server is listening port 9000
+POST / HTTP/1.1
+x-amz-sns-message-type: Notification
+x-amz-sns-message-id: 138ae98b-8273-51fa-95a0-bb87d90f0182
+x-amz-sns-topic-arn: arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification
+x-amz-sns-subscription-arn: arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification:99ba2227-5c2e-437b-8286-a3651d395261
+Content-Length: 1851
+Content-Type: text/plain; charset=UTF-8
+Host: 54.223.31.87:9000
+Connection: Keep-Alive
+User-Agent: Amazon Simple Notification Service Agent
+Accept-Encoding: gzip,deflate
+
+{
+  "Type" : "Notification",
+  "MessageId" : "138ae98b-8273-51fa-95a0-bb87d90f0182",
+  "TopicArn" : "arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification",
+  "Subject" : "Amazon S3 Notification",
+  "Message" : "{\"Records\":[{\"eventVersion\":\"2.0\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"cn-north-1\",\"eventTime\":\"2017-08-15T02:15:24.108Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AIDAO4YP5EKIQXYOETMIA\"},\"requestParameters\":{\"sour
+ceIPAddress\":\"218.94.124.252\"},\"responseElements\":{\"x-amz-request-id\":\"D8E66A4608E6492D\",\"x-amz-id-2\":\"Ogyw2UfOU+zlACTj+a5qrlphNdEd3YoHtv8SP3xwPGrXto6AOwUNAsnSMXCgR1PJzsPQTsbqJp8=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"content-renew-notification\",\"bucket\":{\"name\":\"frankfurt-hca-china-script\",\"ownerIdentity\":{\"principalId\":\"AWS:306943657768\"},\"arn\":\"arn:aws:s3:::frankfurt-hca-china-script\"},\"object\":{\"key\":\"output/code.tar.gz\",\"size\":1822720,\"eTag\":\"b2e28256f8adddd0ddaa3d015f44aa1f\",\"sequencer\":\"005992593C053FE006\"}}}]}",
+  "Timestamp" : "2017-08-15T02:15:24.211Z",
+  "SignatureVersion" : "1",
+  "Signature" : "B8q8Axf3rFzWjIg1aRnJM2B0b+1h9CmTaYJq8nr5BrCpqC+22Dqnct/KyWIMLlXP8YutGM69wR9lesiW5VgR6nWM9mhbyLq+6qaJfDwFERnxSduPdb7K9KgmuumheGcWZR8AQArGxfFLL3ga5/98t2W+yJnolXREjMUcsIe9/8zPCQYWSIaDnpm9WFH0SH0KUTTSPMagd+ueDo/L4/9D+TyR+Iba8iK1whXgMHRghee7ELs4f60Xpd8+kXs8dAw+yQBWSJ7p5kdG71KIh156MEp+22R1H2dENGuaYUToxMqi9Uk7JvWEH7m1ptFSUIMbZOhn2vpNkxMRl6aqe+bDq
+A==",
+  "SigningCertURL" : "https://sns.cn-north-1.amazonaws.com.cn/SimpleNotificationService-184ab1032ad8284cfa6d11f1947a55f1.pem",
+  "UnsubscribeURL" : "https://sns.cn-north-1.amazonaws.com.cn/?Action=Unsubscribe&SubscriptionArn=arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification:99ba2227-5c2e-437b-8286-a3651d395261"
+}
+closing
+POST / HTTP/1.1
+x-amz-sns-message-type: Notification
+x-amz-sns-message-id: 138ae98b-8273-51fa-95a0-bb87d90f0182
+x-amz-sns-topic-arn: arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification
+x-amz-sns-subscription-arn: arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification:99ba2227-5c2e-437b-8286-a3651d395261
+Content-Length: 1851
+Content-Type: text/plain; charset=UTF-8
+Host: 54.223.31.87:9000
+Connection: Keep-Alive
+User-Agent: Amazon Simple Notification Service Agent
+Accept-Encoding: gzip,deflate
+
+{
+  "Type" : "Notification",
+  "MessageId" : "138ae98b-8273-51fa-95a0-bb87d90f0182",
+  "TopicArn" : "arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification",
+  "Subject" : "Amazon S3 Notification",
+  "Message" : "{\"Records\":[{\"eventVersion\":\"2.0\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"cn-north-1\",\"eventTime\":\"2017-08-15T02:15:24.108Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AIDAO4YP5EKIQXYOETMIA\"},\"requestParameters\":{\"sour
+ceIPAddress\":\"218.94.124.252\"},\"responseElements\":{\"x-amz-request-id\":\"D8E66A4608E6492D\",\"x-amz-id-2\":\"Ogyw2UfOU+zlACTj+a5qrlphNdEd3YoHtv8SP3xwPGrXto6AOwUNAsnSMXCgR1PJzsPQTsbqJp8=\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"content-renew-notification\",\"bucket\":{\"name\":\"frankfurt-hca-china-script\",\"ownerIdentity\":{\"principalId\":\"AWS:306943657768\"},\"arn\":\"arn:aws:s3:::frankfurt-hca-china-script\"},\"object\":{\"key\":\"output/code.tar.gz\",\"size\":1822720,\"eTag\":\"b2e28256f8adddd0ddaa3d015f44aa1f\",\"sequencer\":\"005992593C053FE006\"}}}]}",
+  "Timestamp" : "2017-08-15T02:15:24.211Z",
+  "SignatureVersion" : "1",
+  "Signature" : "B8q8Axf3rFzWjIg1aRnJM2B0b+1h9CmTaYJq8nr5BrCpqC+22Dqnct/KyWIMLlXP8YutGM69wR9lesiW5VgR6nWM9mhbyLq+6qaJfDwFERnxSduPdb7K9KgmuumheGcWZR8AQArGxfFLL3ga5/98t2W+yJnolXREjMUcsIe9/8zPCQYWSIaDnpm9WFH0SH0KUTTSPMagd+ueDo/L4/9D+TyR+Iba8iK1whXgMHRghee7ELs4f60Xpd8+kXs8dAw+yQBWSJ7p5kdG71KIh156MEp+22R1H2dENGuaYUToxMqi9Uk7JvWEH7m1ptFSUIMbZOhn2vpNkxMRl6aqe+bDq
+A==",
+  "SigningCertURL" : "https://sns.cn-north-1.amazonaws.com.cn/SimpleNotificationService-184ab1032ad8284cfa6d11f1947a55f1.pem",
+  "UnsubscribeURL" : "https://sns.cn-north-1.amazonaws.com.cn/?Action=Unsubscribe&SubscriptionArn=arn:aws-cn:sns:cn-north-1:306943657768:Content-Http-Notification:99ba2227-5c2e-437b-8286-a3651d395261"
+}
+server is starting
+server is listening port 9000
